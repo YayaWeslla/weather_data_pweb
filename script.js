@@ -25,7 +25,7 @@ async function getClima(cidade) {
 function dadosClima(dadosCidade){
     cardDadosClima = `
     <h2 id="city-name">${dadosCidade.location.name}, ${dadosCidade.location.country}</h2>
-    <p id "local-time" class="local-time>Horário local: ${dadosCidade.location.localtime}</p>
+    <p id "local-time" class="local-time">Horário local: ${dadosCidade.location.localtime}</p>
 
     <div class="weather-main">
         <img id="weather-icon" src="${dadosCidade.current.condition.icon}" alt="Ícone do clima">
